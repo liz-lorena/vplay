@@ -1,0 +1,52 @@
+# Site Info
+title:              "Vplay"
+description:        ""
+
+# Author Info
+author_name:        "Iris of Lys"
+author_email:       lys@irisoflys.com
+github_username:    irisoflys
+twitter_username:   irisoflys
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /:year/:month/:day/:title # Post permalink
+timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+language:           en-US
+
+# Pagination Settings
+paginate_path: "/blog/pg-:num/"
+paginate: 5
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: irisoflys
+
+# Site Build
+highlighter: rouge
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - tzinfo
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:          "posts"
+    values:
+      layout:        "post"
