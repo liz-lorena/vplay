@@ -6,7 +6,7 @@ Mara A. - App Prototype, Hardware, Merch, and Education Research
 
 Asfa A. - Graphic Design, Film, Hardware, and Concept Design
 
-Iris of Lys - Website and Concept Design
+Liz B. - Website and Concept Design
 
 Jessica B. - Project Management
 
